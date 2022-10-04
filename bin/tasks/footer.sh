@@ -1,0 +1,8 @@
+echo ""
+echo "Front end: https://${PROJECTNAME}.test"
+echo "WP-admin:  https://${PROJECTNAME}.test/wp/wp-login.php"
+echo ""
+## echo "Please note! There are no themes installed so you may see a WHITE page. We recommend matrix-starter which is designed for matrixstack: https://github.com/BernardHanna/matrix-starter - So next git clone matrix-starter and run newtheme.sh or newtheme-wsl.sh under bin/."
+echo ""
+echo "Thanks for using createproject start script ${SCRIPT_LABEL}, v${SCRIPT_VERSION}!"
+echo ""
