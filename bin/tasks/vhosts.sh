@@ -35,9 +35,9 @@ echo "<VirtualHost *:80>
 
 	</VirtualHost>" > ~/$PROJECTNAME.conf
 sudo mv ~/$PROJECTNAME.conf /etc/apache2/sites-available/$PROJECTNAME.conf
-sudo ln -s /etc/apache2/sites-available/$PROJECTNAME.conf/etc/apache2/sites-enabled/$PROJECTNAME.conf
+sudo ln -s /etc/apache2/sites-available/$PROJECTNAME.conf /etc/apache2/sites-enabled/$PROJECTNAME.conf
 
-echo "${BOLDGREEN}Added vhost, $PROJECTNAME.conf added to /etc/aoache2/sites-enabled/${TXTRESET}"
+echo "${BOLDGREEN}Added vhost, $PROJECTNAME.conf added to /etc/apache2/sites-enabled/${TXTRESET}"
 
 # update hosts file
 echo 127.0.0.1  $PROJECTNAME >> $hosts_path

@@ -37,9 +37,6 @@ source ${SCRIPTS_LOCATION}/tasks/askvars.sh
 # Init project and run composer
 source ${SCRIPTS_LOCATION}/tasks/initproject.sh
 
-# Create database
-source ${SCRIPTS_LOCATION}/tasks/initdb.sh
-
 # Update .env
 source ${SCRIPTS_LOCATION}/tasks/dotenv.sh
 

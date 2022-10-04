@@ -3,13 +3,13 @@ echo "path: wp
 url: https://${PROJECTNAME}.test
 
 core install:
-  admin_user: \"${WP_ADMIN_USER_ENV}\"
-  admin_password: \"${WP_ADMIN_USER_PASSWORD_ENV}\"
-  admin_email: \"${WP_ADMIN_USER_EMAIL_ENV}\"
+  admin_user: \"${WP_ADMIN_USER}\"
+  admin_password: \"${WP_ADMIN_USER_PASSWORD}\"
+  admin_email: \"${WP_ADMIN_USER_EMAIL}\"
   title: \"${PROJECTNAME}\"" > wp-cli.yml
 
 # Actual install command
-cd ${PROJECTS_HOME}/$PROJECTNAME/;vendor/wp-cli/wp-cli/bin/wp core install --title=${PROJECTNAME} --admin_email=${WP_ADMIN_USER_EMAIL_ENV}
+cd ${PROJECTS_HOME}/$PROJECTNAME/;vendor/wp-cli/wp-cli/bin/wp core install --title=${PROJECTNAME} --admin_email=${WP_ADMIN_USER_EMAIL}
 
 # Update settings
 echo "${YELLOW}Removing default WordPress posts and applying settings via WP-CLI...${TXTRESET}"
