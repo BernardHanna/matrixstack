@@ -6,14 +6,9 @@
   "homepage": "https://github.com/bernardhanna/matrixstack",
   "authors": [
     {
-      "name": "Roni Laukkarinen",
-      "email": "roni@dude.fi",
-      "homepage": "https://github.com/ronilaukkarinen"
-    },
-    {
-      "name": "Timi Wahalahti",
-      "email": "timi@dude.fi",
-      "homepage": "https://github.com/timiwahalahti"
+      "name": "Bernard Hanna",
+      "email": "bernard@matrixinternet.ie",
+      "homepage": "https://github.com/bernardhanna"
     }
   ],
   "keywords": [
@@ -52,10 +47,6 @@
     {
       "type": "composer",
       "url": "https://wp-languages.github.io"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/digitoimistodude/air-blocks-acf-example-data"
     }
   ],
   "require": {
@@ -67,15 +58,7 @@
     "roots/wp-config": "^1.0",
     "johnpbloch/wordpress": "6.0.2",
     "koodimonni/composer-dropin-installer": "dev-master",
-    "koodimonni-language/fi": "*",
     "koodimonni-language/en_gb": "*",
-    "digitoimistodude/air-helper": "*",
-    "digitoimistodude/air-blocks-acf-example-data": "dev-master",
-    "wpackagist-plugin/koko-analytics": "*",
-    "wpackagist-plugin/simple-history": "*",
-    "wpackagist-plugin/mailgun": "*",
-    "wpackagist-plugin/worker": "*",
-    "wpackagist-plugin/gravity-forms-wcag-20-form-fields": "*",
     "wpackagist-plugin/disable-media-pages": "*",
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/so-clean-up-wp-seo": "*",
@@ -90,12 +73,6 @@
     "dropin-paths": {
       "content/languages/": [
         "vendor:koodimonni-language"
-      ],
-      "content/languages/plugins/": [
-        "vendor:koodimonni-plugin-language"
-      ],
-      "content/languages/themes/": [
-        "vendor:koodimonni-theme-language"
       ]
     },
     "installer-paths": {
