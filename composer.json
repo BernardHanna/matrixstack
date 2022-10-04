@@ -61,7 +61,12 @@
     "koodimonni-language/en_gb": "*",
     "wpackagist-plugin/disable-media-pages": "*",
     "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/all-in-one-wp-security-and-firewall": "*",
     "wpackagist-plugin/so-clean-up-wp-seo": "*",
+    "wpackagist-plugin/metronet-reorder-posts": "*",
+    "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/updraftplus": "*",
+    "wpackagist-plugin/wordfence": "*",
     "devgeniem/wp-sanitize-accented-uploads": "*"
   },
   "require-dev": {
