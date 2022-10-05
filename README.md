@@ -40,6 +40,56 @@ For example it assumes you use Linux Ubuntu 20.04, always start your projects in
 - sets the timezone to Dublin
 - removes pingbacks
 - Activates plugins
+- Customizable to suit your workflow eg, change the plugins pre installed etc
+
+
+# Requirements
+
+- Linux Ubuntu OS
+- mkcert
+- Composer v2
+- Basic knowledge about bash scripting 
+- Basic knowledge npm packages, bundle, composer etc.
+- Optional: Access to staging and production servers that supports sftp and git
+- Projects located under home/Projects
+- Git
+- PHP >= 7.2
+- Ruby >= 2.6
+- Perl
+- WP-CLI
+- Apache
+- mySQL
+
+# Installation
+
+1. Clone this repo to your Projects directory: /home/YourUserName/Projects
+
+```
+git clone https://github.com/bernardhanna/matrixstack.git
+```
+
+2. Change directory to matrixstack and then bin folder (change below to your own username)
+
+```
+cd /home/YourUserName/Projects/matrixstack/bin
+```
+
+3. Run the setup script for the first and only time
+
+```
+bash matrix.sh
+```
+
+4. Follow any onscreen instructions to link this file to system level.
+
+5. Create your new project
+
+```
+createproject
+```
+
+From here the on screen prompts will guide you
+
 
 
 
