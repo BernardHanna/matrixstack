@@ -30,15 +30,16 @@ For example it assumes you use Linux Ubuntu 20.04, always start your projects in
 - Allows you to use Composer to manage WordPress installation
 - Install WP packages from [WordPress Packagist](https://wpackagist.org/)
 - sets up dotenv-environments for development, staging and production
-- adds Premium plugin licences
-- Cleans WP installation:
--- Deletes default posts and pages
--- updates descriptionmm
--- updates language to en_GB
--- deletes default themes and plugins
--- sets the timezone to Dublin
--- removes pingbacks
-- -Activates plugins
+- Adds Premium plugin licences
+- Sets up (modified version of)Bedrock
+- Chnages WP login to /wp/wp-admin for better security
+- Deletes default posts and pages
+- updates descriptionmm
+- updates language to en_GB
+- deletes default themes and plugins
+- sets the timezone to Dublin
+- removes pingbacks
+- Activates plugins
 
 
 
