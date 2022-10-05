@@ -34,7 +34,7 @@ For example it assumes you use Linux Ubuntu 20.04, always start your projects in
 - Sets up (modified version of)Bedrock
 - Changes WP login to /wp/wp-admin for better security
 - Deletes default posts and pages
-- updates descriptionmm
+- updates description
 - updates language to en_GB
 - deletes default themes and plugins
 - sets the timezone to Dublin
