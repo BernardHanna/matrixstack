@@ -24,7 +24,7 @@ For example it assumes you use Linux Ubuntu 20.04, always start your projects in
 - Sets up WP user, admin email and pass.
 - Installs Wordpress
 - Installs Wordpress development plugins
-- Installs plugins we typically use in Matrix eg: ACF, Yoast, AIOWPS, Wordfence etc
+- Installs plugins we typically use in Matrix such as Yoast
 - Automatic Github repo initialization
 - Capistrano 3 deployment templates bundled in bin/createproject.sh
 - Allows you to use Composer to manage WordPress installation
@@ -93,6 +93,7 @@ From here the on screen prompts will guide you
 
 ![Screenshot from 2022-10-05 14-32-15](https://user-images.githubusercontent.com/47034430/194073029-7814a09f-ca0b-40f9-94c1-d4e347e1e595.png)
 
+6. Note when the project loads you will get a whitescreen as there is no Theme installed. You will know if everything worked by accessing the admin
 
 ## Preinstallation
 
@@ -107,9 +108,29 @@ The script assumes:
 
 ## What matrix.sh does
 
-When you run ```createproject``` it look like this when its finished running:
-
 ![Screenshot from 2022-10-05 14-43-53](https://user-images.githubusercontent.com/47034430/194075677-f1bfc637-5af8-4538-aa26-5c4b264fb6fc.png)
 
+1. Runs composer create-project with matrixstack settings
+2. Installs our default WordPress plugins and updates them
+3. Sets up MySQL database
+4. Installs capistrano deployment tool
+5. Generates default capistrano configs (config/deploy.rb, config/deploy/staging.rb, config/deploy/production.rb) with your GitHub project details and paths
+6. Sets up WordPress configs (wp-config credentials to .env) and salts automatically
+7. Installs WordPress under its own subdirectory /wp (thus, admin located in example.test/wp/wp-admin)
+8. Sets up default admin user as not "admin" for security
+9. Removes default WordPress posts, themes and plugins and everything else not so useful
+10. Activates default plugins, timezones, permalinks
+11. Flushes rewrites, adds support for permalinks and webfonts
+12 . Sets up file permissions
+13. Inits a GitHub repository
+14. Creates a HTTPS certificate
+15. Sets up a virtual host for development environment
+16. Updates /etc/hosts file
+17.Restarts development server
 
+# Next Steps
 
+- Fix issue with ACF pro breaking the script when trying to auto install
+- Create a goLive script which checks everything in our QA sheet, installs and configures plugins like All in one security, Wordfence, WP rocket etc
+- Create Mac/Windows version
+- Create a starter theme script
