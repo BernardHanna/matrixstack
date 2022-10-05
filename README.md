@@ -137,6 +137,6 @@ The ```createproject``` script assumes:
 # Next Steps
 
 - Fix issue with ACF pro breaking the script when trying to auto install
-- Create a goLive script which checks everything in our QA sheet, installs and configures plugins like All in one security, Wordfence, WP rocket etc
+- Create a goLive script which checks everything in our QA sheet, installs and configures plugins like All in one security, Wordfence, WP rocket etc before deploying.
 - Create Mac/Windows version
-- Create a starter theme script
+- Create a starter theme & script and incorporate
