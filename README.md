@@ -91,7 +91,8 @@ createproject
 From here the on screen prompts will guide you
 
 
- file:///home/ben/Pictures/Screenshots/Screenshot%20from%202022-10-05%2014-24-17.png
+![Screenshot from 2022-10-05 14-24-17](https://user-images.githubusercontent.com/47034430/194072539-f0c2812e-e515-4a38-81f2-d3ec46e38d33.png)
+
 
 
 
