@@ -95,7 +95,13 @@ From here the on screen prompts will guide you
 
 6. Note when the project loads you will get a whitescreen as there is no Theme installed. You will know if everything worked by accessing the admin
 
+
 ## Preinstallation
+
+WP-Cli is included in matrixstack per project via composer.json but won't work by default globally. You'll need this alias on your Linux .bashrc or .bash_profile file:
+```
+alias wp='./vendor/wp-cli/wp-cli/bin/wp'
+```
 
 The script assumes:
 
