@@ -127,7 +127,7 @@ The ```createproject``` script assumes:
 9. Removes default WordPress posts, themes and plugins and everything else not so useful
 10. Activates default plugins, timezones, permalinks
 11. Flushes rewrites, adds support for permalinks and webfonts
-12 . Sets up file permissions
+12. Sets up file permissions
 13. Inits a GitHub repository
 14. Creates a HTTPS certificate
 15. Sets up a virtual host for development environment
