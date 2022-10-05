@@ -134,9 +134,10 @@ The ```createproject``` script assumes:
 16. Updates /etc/hosts file
 17.Restarts development server
 
-# Next Steps
+# Next Steps (get involved)
 
 - Fix issue with ACF pro breaking the script when trying to auto install
 - Create a goLive script which checks everything in our QA sheet, installs and configures plugins like All in one security, Wordfence, WP rocket etc before deploying.
 - Create Mac/Windows version
 - Create a starter theme & script and incorporate
+- Create a Wiki outlining whats different with the modified version of bedrock included and why its different
