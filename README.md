@@ -12,7 +12,7 @@ createproject
 
 The script is focused on my own workflow, it assumes a lot of things about how you will work. It may need to be tweaked to make it work for you.
 For example it assumes you use Linux Ubuntu 20.04, always start your projects in ~/Projects, use XXXX.test as your host name url, store your SSL certs in 
-/var/www/certs, use an Apache server with your projects aqnd your current projects home directory will be located in /var/www/....
+/var/www/certs, use an Apache server with your projects and your current projects home directory will be located in /var/www/....
 
 # Features
 
