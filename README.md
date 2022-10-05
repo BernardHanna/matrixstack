@@ -68,10 +68,10 @@ For example it assumes you use Linux Ubuntu 20.04, always start your projects in
 git clone https://github.com/bernardhanna/matrixstack.git
 ```
 
-2. Change directory to matrixstack and then bin folder (change below to your own username)
+2. Change directory to matrixstack and then bin folder
 
 ```
-cd /home/YourUserName/Projects/matrixstack/bin
+cd /Projects/matrixstack/bin
 ```
 
 3. Run the setup script for the first and only time
@@ -93,6 +93,23 @@ From here the on screen prompts will guide you
 
 ![Screenshot from 2022-10-05 14-32-15](https://user-images.githubusercontent.com/47034430/194073029-7814a09f-ca0b-40f9-94c1-d4e347e1e595.png)
 
+
+## Preinstallation
+
+The script assumes:
+
+- You use Linux Ubuntu as OS
+- You use .test as your domain extension
+- You will be using Apache
+- Your SSL certs will be stored in /var/www/certs
+- Your project folder will be located: var/www/PROJECT-NAME
+
+
+## What matrix.sh does
+
+When you run ```createproject``` it look like this when its finished running:
+
+![Screenshot from 2022-10-05 14-43-53](https://user-images.githubusercontent.com/47034430/194075677-f1bfc637-5af8-4538-aa26-5c4b264fb6fc.png)
 
 
 
