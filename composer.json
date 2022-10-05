@@ -47,10 +47,6 @@
     },
     {
       "type": "composer",
-      "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
-    },
-    {
-      "type": "composer",
       "url": "https://wp-languages.github.io"
     }
   ],
@@ -64,7 +60,6 @@
     "johnpbloch/wordpress": "6.0.2",
     "johnpbloch/wordpress-core-installer": "^2.0",
     "koodimonni/composer-dropin-installer": "dev-master",
-    "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "koodimonni-language/en_gb": "*",
     "wpackagist-plugin/disable-media-pages": "*",
     "wpackagist-plugin/wordpress-seo": "*",
