@@ -103,7 +103,7 @@ WP-Cli is included in matrixstack per project via composer.json but won't work b
 alias wp='./vendor/wp-cli/wp-cli/bin/wp'
 ```
 
-The script assumes:
+The ```createproject``` script assumes:
 
 - You use Linux Ubuntu as OS
 - You use .test as your domain extension
