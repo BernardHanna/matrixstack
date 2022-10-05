@@ -31,3 +31,4 @@ cd ${PROJECTS_HOME}/$PROJECTNAME/;vendor/wp-cli/wp-cli/bin/wp option update admi
 cd ${PROJECTS_HOME}/$PROJECTNAME/;vendor/wp-cli/wp-cli/bin/wp option delete new_admin_email
 cd ${PROJECTS_HOME}/$PROJECTNAME/;vendor/wp-cli/wp-cli/bin/wp plugin activate --all
 cd ${PROJECTS_HOME}/$PROJECTNAME/;vendor/wp-cli/wp-cli/bin/wp plugin deactivate worker
+cd ${PROJECTS_HOME}/$PROJECTNAME/;vendor/wp-cli/wp-cli/bin/wp eval 'acf_pro_update_license("b3JkZXJfaWQ9NjIzMjB8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA4LTIwIDE0OjEyOjU4");'

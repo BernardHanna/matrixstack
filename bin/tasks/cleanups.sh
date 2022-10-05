@@ -6,6 +6,7 @@ rm LICENSE
 rm -rf .git
 rm -rf bin
 rm .env.example
+rm wp-cli.yml
 
 # Remove Composers Platform Check
 cd "$PROJECTS_HOME/$PROJECTNAME/vendor/composer/"
