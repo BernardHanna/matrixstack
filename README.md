@@ -32,7 +32,7 @@ For example it assumes you use Linux Ubuntu 20.04, always start your projects in
 - sets up dotenv-environments for development, staging and production
 - Adds Premium plugin licences
 - Sets up (modified version of)Bedrock
-- Chnages WP login to /wp/wp-admin for better security
+- Changes WP login to /wp/wp-admin for better security
 - Deletes default posts and pages
 - updates descriptionmm
 - updates language to en_GB
