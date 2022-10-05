@@ -131,7 +131,7 @@ The ```createproject``` script assumes:
 13. Inits a GitHub repository
 14. Creates a HTTPS certificate
 15. Sets up a virtual host for development environment
-16. Updates /etc/hosts file
+16. Updates /etc/hosts file.
 17. Restarts development server
 
 # Next Steps (get involved)
