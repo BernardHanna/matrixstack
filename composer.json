@@ -24,6 +24,7 @@
     "issues": "https://github.com/bernardhanna/matrixstack/issues"
   },
   "config": {
+    "allow-plugins": true,
     "preferred-install": "dist",
     "generate-salts": true,
     "secure-http": true
@@ -46,6 +47,10 @@
     },
     {
       "type": "composer",
+      "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
+    },
+    {
+      "type": "composer",
       "url": "https://wp-languages.github.io"
     }
   ],
@@ -59,18 +64,19 @@
     "johnpbloch/wordpress": "6.0.2",
     "johnpbloch/wordpress-core-installer": "^2.0",
     "koodimonni/composer-dropin-installer": "dev-master",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "koodimonni-language/en_gb": "*",
     "wpackagist-plugin/disable-media-pages": "*",
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/so-clean-up-wp-seo": "*",
     "wpackagist-plugin/metronet-reorder-posts": "*",
     "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/prevent-browser-caching": "*",
     "wpackagist-plugin/updraftplus": "*",
     "devgeniem/wp-sanitize-accented-uploads": "*"
   },
   "require-dev": {
     "rarst/wps": "*",
-    "rarst/laps": "*",
     "wpackagist-plugin/query-monitor": "*"
   },
   "extra": {

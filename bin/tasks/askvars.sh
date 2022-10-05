@@ -3,8 +3,8 @@ ENV_FILE="${HOME}/.env_createproject"
 
 # Ask Credentials
 echo ""
-echo "${BOLDYELLOW}What is your MySQL password (asked only first time):${TXTRESET} "
-read -e MYSQL_ROOT_PASSWORD
+echo "${BOLDYELLOW}What is your MySQL password (asked only first time) Note: Password will be hidden when typing${TXTRESET} "
+read -s -e MYSQL_ROOT_PASSWORD
     
 echo "${BOLDYELLOW}Enter the new database name ${TXTRESET}"
 read dbname
@@ -16,7 +16,7 @@ echo "Database successfully created!"
 echo "${BOLDYELLOW}Enter database user${TXTRESET}"
 read username
 
-echo "${BOLDYELLOW}Enter the PASSWORD for database user! Note: Password will be hidden when typing${TXTRESET}"
+echo "${BOLDYELLOW}Enter the PASSWORD for database user. Note: Password will be hidden when typing${TXTRESET}"
 read -s userpass
     
 echo "Granting ALL privileges on ${dbname} to ${username}!"
