@@ -91,7 +91,7 @@ createproject
 From here the on screen prompts will guide you
 
 
-![Screenshot from 2022-10-05 14-24-17](https://user-images.githubusercontent.com/47034430/194072539-f0c2812e-e515-4a38-81f2-d3ec46e38d33.png)
+![Screenshot from 2022-10-05 14-32-15](https://user-images.githubusercontent.com/47034430/194073029-7814a09f-ca0b-40f9-94c1-d4e347e1e595.png)
 
 
 
