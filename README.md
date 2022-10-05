@@ -18,7 +18,7 @@ For example it assumes you use Linux Ubuntu 20.04, always start your projects in
 
 - Automatic MySQL-database generation
 - Automatic Creation of Apache server
-- Automatic host settings for development server
+- Automatic host conf files creation 
 - Automatic update of hosts file
 - Automatic set up and installation of SSL cert
 - Sets up WP user, admin email and pass.
