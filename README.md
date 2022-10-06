@@ -106,7 +106,7 @@ alias wp='./vendor/wp-cli/wp-cli/bin/wp'
 The ```createproject``` script assumes:
 
 - You use Linux Ubuntu as OS
-- You use .test as your domain extension
+- You use .test as your domain extension (it will automatically add this extension to whatever name you give your project)
 - You will be using Apache
 - Your SSL certs will be stored in /var/www/certs
 - Your project folder will be located: var/www/PROJECT-NAME
