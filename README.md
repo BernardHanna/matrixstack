@@ -82,7 +82,7 @@ bash matrix.sh
 
 4. Follow any onscreen instructions to link this file to system level.
 
-5. Create your new project
+5. Create your new project. (You can skip to this step going forward)
 
 ```
 createproject
